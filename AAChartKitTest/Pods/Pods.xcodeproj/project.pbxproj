@@ -1,0 +1,1414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00662B3A6E5680BE33F35207694BBD13 /* Pods-AAChartKitTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D37868D0BC785F3479A4C2B5556D74D5 /* Pods-AAChartKitTestTests-dummy.m */; };
+		05E94766F95E379D5FE7BDEDA24D6151 /* AAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C023406FB41295070E126EC33FF6EC /* AAAnimation.m */; };
+		0781E63C5FB1969AC0CD9681B8AADA1B /* AAShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B45625B688C280F51C0E1005DD5D024 /* AAShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D882829DDAC70E7901E9DC4C0C9E835 /* AATitle.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC9781C116D2ED247B8B510BDBC78C6 /* AATitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10528958C659EF01DAE7664E75B3063F /* AALabels.h in Headers */ = {isa = PBXBuildFile; fileRef = 3912D888FD371A7935B7C8AC9E4120F7 /* AALabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C049D771F1024955B961849E227654 /* AAAreaspline.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B5C19B362D27A89F89E163EC378B29 /* AAAreaspline.m */; };
+		13F23C3F8C1711AACF9B0980BB8C40E3 /* AALabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C89220FEA132A2040F125FAA62B6D5 /* AALabel.m */; };
+		19F2F87B4FBACE1A70CC3C64C1512310 /* AAGlobalMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 0962ADA431A18C370F49CDFD85F67803 /* AAGlobalMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F96C1376128E223A7E7C20D692B716D /* AAPlotBandsElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 709AAA83696E46A7D7423D4567AB20AB /* AAPlotBandsElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2433EDD4F80DFDD1228F512D25F3F3CD /* AAChartKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 166D080950C039CDC5BBAD136EB07903 /* AAChartKit-dummy.m */; };
+		25CC991F981DB5D40F3A67122D562F20 /* AASpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C751BD6E7BB3889C54DBE39757E1542 /* AASpline.m */; };
+		28B3F7E3462824AA582F986FA57B9DE6 /* AASeriesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FC6B9E0A69CC46C95438784CC3A2A2 /* AASeriesElement.m */; };
+		29409ED1A37ECD9DAABFDD0F88FC0A98 /* AAColumnrange.h in Headers */ = {isa = PBXBuildFile; fileRef = 44E7EFAC29EB419FAF0DEC2AF374A486 /* AAColumnrange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29D5122488E7E7495370EC6587745978 /* AAGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC20DCD14AEF1DDC903ACF3B0C635E9B /* AAGradientColor.m */; };
+		29FF4F8A22923B52E1621BFC48C1C5B0 /* AAYAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC7058841528594172CAED10CB2840A /* AAYAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B600808D6B0FF78A0DDAD80D4B12D16 /* AADateTimeLabelFormats.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2FE87978B2963145178D29B63832BF /* AADateTimeLabelFormats.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D9478010F6F4202214E3E2ACCD33681 /* AAChartKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEFD5167E6D81AF50485D04CB192C66 /* AAChartKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A650E0D874AE6DEEFD0B6AEDA89411 /* AAPane.h in Headers */ = {isa = PBXBuildFile; fileRef = E7EF27F7030B0202902C1ED945165939 /* AAPane.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310398FB54090BE6ED6C5D721458766C /* Pods-AAChartKitTest-AAChartKitTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3730F5B3367E9EB70258DE8C3B8FD767 /* Pods-AAChartKitTest-AAChartKitTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3510C284335873BDAA5210BDB9D9016F /* AABar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF25D9BD1965415D86E18DD513B80DB /* AABar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B3125C2498C1782922D26DC3D8E84F8 /* AAPane.m in Sources */ = {isa = PBXBuildFile; fileRef = BE878A18B7FE3FE888B9D8E5697C43D9 /* AAPane.m */; };
+		3E10A2832A5557827395A58C54047FFB /* AAAreaspline.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB744B7465C0418FF157B89280D6708 /* AAAreaspline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F885CAC1C9900B8673BFB2DD4C384EC /* AADataLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DDFB0C3CE918E13B08E5B7BCBCE864 /* AADataLabels.m */; };
+		452D79628F806EC9F7CC575DD7F7114B /* AAMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = FE636B17E5FA2FA63DA86E59E27AAEC5 /* AAMarker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46588491BDA07890246A5B223F6134F1 /* AALabels.m in Sources */ = {isa = PBXBuildFile; fileRef = D26B755132693CFDFB54E1BD323BBEFD /* AALabels.m */; };
+		485EFC7C5D4AB16914517E3EC7DD62A7 /* AAStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AD674ACEAE868124C13CD23B5DF0A1 /* AAStyle.m */; };
+		48B9CE790C35AC6208BDF5A7C31EC537 /* Pods-AAChartKitTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D57648A3D5C6039E8FB9CDA5763090 /* Pods-AAChartKitTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494C653B83A4C9BDB000E1C23A127B23 /* AAPlotOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8325E182768D817BE9F9E4EAB82D21 /* AAPlotOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A90106BD3E58DCAC0A6836A36E00A9C /* AADataLabels.h in Headers */ = {isa = PBXBuildFile; fileRef = D9238FB3D0E139E431E512646C6426A2 /* AADataLabels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE0FB8321965915E7D10AE2AB662329 /* AASpline.h in Headers */ = {isa = PBXBuildFile; fileRef = AC97095ACA76BE602276FD665F5C1493 /* AASpline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9E4180C6C8AB712CDDD9220FECAED0 /* AAColumnrange.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3D25CAB125010891F11A80EC8498B /* AAColumnrange.m */; };
+		5587B0157E2FBD14EC96C95276623555 /* AAXAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB186BFC9494BE2550404E5697F9393 /* AAXAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C32C6F24ACE236994173F49F33688AD /* AAYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = DD456443F99A313AC8E3A8341DDFF1D4 /* AAYAxis.m */; };
+		5C53FB726F485648E0669AD4D66F8451 /* AAChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D670B50A0E8EB58743906A733E4768 /* AAChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CCFDB0E79BFB30F6F1954586715333C /* AAMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6546BEFDF25A656538BFCCCFFA199EAC /* AAMarker.m */; };
+		5D141814F275DCF95EBCDD2C6EFEDB58 /* AACrosshair.h in Headers */ = {isa = PBXBuildFile; fileRef = 418D9E98035B21857271858324B6E3B5 /* AACrosshair.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6126580730EA4E9A914873C7CE2C9182 /* NSString+toPureJSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F15026615235FA1484E567826AE0722 /* NSString+toPureJSString.m */; };
+		6256ED4E6148A9BA40F0A268B47FC195 /* AAXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = C38478673384E99DF8FBD8AE8678AAB1 /* AAXAxis.m */; };
+		625AA887BAC5E9FF5BA2044B5BD0436F /* AASeriesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 458F39BD51FA6962602DC5EEECE187E3 /* AASeriesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6587C7EF6438D6DC1A2889A3650E25D9 /* AAStates.h in Headers */ = {isa = PBXBuildFile; fileRef = 4083E618DF00E6CF9CEE403C6B7D34A1 /* AAStates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66BB1B089905BE1F52AEACFB68D0B23D /* AASeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5EC8DF983EFB7D980362F1488EDA92 /* AASeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B1885F2636298C651AFDED89983EF57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6E82F1C1113F2C7D07254E13C9A49731 /* AASeries.m in Sources */ = {isa = PBXBuildFile; fileRef = A5929F89A1EE7A1B5C141C65972FF2C0 /* AASeries.m */; };
+		6F5F988403C27D41310FC0AA388E58B1 /* AAPie.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B2834BA5CD789829C24EEC4ED2659E /* AAPie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7326596B96BB3C93A4714477329EE688 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		740A4E9FAC1A035B7CC741E7FB097B18 /* AAPlotOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9FA5A69918BA232C523E1EE8E08AF /* AAPlotOptions.m */; };
+		75B9404A7348BBE712DDAADC0AA5F540 /* AAPlotLinesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 413DCC5756B9FD04E1320FCF311773D8 /* AAPlotLinesElement.m */; };
+		77C81E684614506FB8DC674816BE08DE /* AAJSFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46E0A2848EBE8BAC8D420B27F4C4FBDA /* AAJSFiles.bundle */; };
+		78390B47633DFD67F6EA49B4119D9F7A /* AALang.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE6D0B48B82606FAF41A31F0B534161 /* AALang.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B67F2F48663BC6E03666693D7FC510A /* AATitle.m in Sources */ = {isa = PBXBuildFile; fileRef = BB421DA9AABC642713FEF180E36BE8EC /* AATitle.m */; };
+		7F4B9F98B28C9E9858E00ED870DE673D /* AAOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E70502797B1890A9D6CB65C2A820B65 /* AAOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F804C45520869E5D5F8196CF597969B /* AACredits.m in Sources */ = {isa = PBXBuildFile; fileRef = 229B6254451F6B3CBF2D4AB9C40A1940 /* AACredits.m */; };
+		80C34CFC7DF53BAA9550F671A0C83DFE /* AAColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2893DF838B87CAE026FBF44950B45A6B /* AAColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		873927873E9A48CEBB1C4F33575A6EB5 /* AALang.m in Sources */ = {isa = PBXBuildFile; fileRef = B39B0DEEB625A88C114036D2EC148960 /* AALang.m */; };
+		8A8531447D63C9B78B7C5071AA82C3D1 /* AAGradientColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB0B8279EC1B57107A431FD91DA4E8C /* AAGradientColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AB75FF81DD3969B6FD93E8565C6B435 /* AAShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C133596122DFD8917150A6E8BC1625 /* AAShadow.m */; };
+		8AD0D39A9BBD4FCEE840971E53ADC811 /* AAStates.m in Sources */ = {isa = PBXBuildFile; fileRef = AA50B0DBF412B279EF8D7615FAB5AFCE /* AAStates.m */; };
+		8AD640337867D5C9C726F2D78A0ED6BE /* Pods-AAChartKitTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7337AAA3C4814683C3112755A1DF5139 /* Pods-AAChartKitTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D3798C9E03F5A60FE76CBF3A1C18B43 /* AADateTimeLabelFormats.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74C6A4685D3A49C605F7040C602AFC /* AADateTimeLabelFormats.m */; };
+		8F45CAEF15EAA58490D961BCA853E29D /* AAStyleConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 95AF319A7C9E875EDDA08CBFD6BE645C /* AAStyleConvenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7C416826D9179FA64B07723BBE021A /* AAColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CDE326F8C267418DB48435A0CE3C30 /* AAColumn.m */; };
+		93E5CA46523550BDFC2BCEBAB9C3BDC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9469DB887AC7227EDF264A904D2E6B1B /* AAChartKitLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 749A8B244F7A08D090440F71E7E85464 /* AAChartKitLib.bundle */; };
+		9796C3559B65A4A1DD6BB67A032095FE /* NSArray+toJSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9474DEBE0D70DEF18AE4D10DCFB9AF /* NSArray+toJSArray.m */; };
+		9C3890E2CD2788337A852BB6F96D0E95 /* AAChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE96F1264E7C6F354D46DC72339A0F5B /* AAChartModel.m */; };
+		9C4EE634320EA73F8870EB2CA3EEB6CF /* AAColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C87323810C11D6A652B07FBF40C745 /* AAColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7DE533568067D7CA1D86FE962065D45 /* AAChartAxisType.h in Headers */ = {isa = PBXBuildFile; fileRef = 008770B9543C9928AF31731CE05506EB /* AAChartAxisType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E9D5BCB5A31E1EFA1651F7006F8322 /* AAOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C644B6E9697F14658C0A62AD81E09D /* AAOptions.m */; };
+		A8070BA6A2944514397AC4965AA49430 /* AAPlotBandsElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1E174C7043F67398A2932E4216A0E6 /* AAPlotBandsElement.m */; };
+		AB70218D42152A50240E1CF2D2F29683 /* AAChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE54D04C42272CD0803E1A8735D254BF /* AAChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD0FB334A1D67EE9E016643AB4DA01B6 /* AAChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF43877AC571C0801B5FE92B0C5F339 /* AAChartView.m */; };
+		B04C0973EFC5CEA5A0FE9C65DDC682B7 /* AAPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECED3B00F6B1117DDF320B2A3FC967F /* AAPie.m */; };
+		B116154B409EB0FB34C0E72B6983A4B3 /* Pods-AAChartKitTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AB515382D29BDCC7E854CD7C4C7CA4 /* Pods-AAChartKitTest-dummy.m */; };
+		B3C255A1BF2C414026A9C3DA1B6B9393 /* AAAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAD118EFE584FD6475FA379CCE2D385 /* AAAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4633429FA685F53075F0693581467A0 /* AATooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A89434DA43EDF5FA24CA85AECDB379 /* AATooltip.m */; };
+		B6A0BE6591886403F4CF8E99B22E8EC8 /* NSString+toPureJSString.h in Headers */ = {isa = PBXBuildFile; fileRef = DE216D4460F06ECB2480532218FD4E90 /* NSString+toPureJSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B86645269D5970D91559CB68C927CCAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		BC2F3C19D02D1EB5A1DE970BBA3852A3 /* AAPlotLinesElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C56F1A8BA242019A4C691CE80442CA /* AAPlotLinesElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7608974473B89168BCC2F67E6B15B19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		CC187C19A99484D487EEFBA11722F314 /* AALabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B23E9F1F4FB290525696FEAAC8691F57 /* AALabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA2849603AD481B25D20F364C9A23FF /* AAStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C9E1F51B8CFDE698BC742E680D844A /* AAStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD9EF7B9B32CC71637BCEE42C9A598DC /* AAArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D2916890741C47D4772AA18D704DE9 /* AAArea.m */; };
+		D0DCF630558EE13C30F7D90E58EAE276 /* AALegend.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F18A798A60EDE89BFF690D039232454 /* AALegend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8259E9F7E1E0EBE9B962EBC6921FA8F /* Pods-AAChartKitTest-AAChartKitTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70324205EB2AB3F8B2E80AD605A4C6A8 /* Pods-AAChartKitTest-AAChartKitTestUITests-dummy.m */; };
+		D85AC857700BE0A1839214B35C070B78 /* AALegend.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CCF6D8E9F582FAB8E090D1EE573F9E /* AALegend.m */; };
+		DDFE9DDA5E5317133E6089B0DBD50014 /* AATooltip.h in Headers */ = {isa = PBXBuildFile; fileRef = 7461BF48348DF350AB163F972022A9DC /* AATooltip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5310F2007910F996FD2E024F80F0C6 /* AACredits.h in Headers */ = {isa = PBXBuildFile; fileRef = A52C85A7D8F54956476269FAF69948E3 /* AACredits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E004D516547C4BEC2B91AD0FFC58F2DF /* AAArea.h in Headers */ = {isa = PBXBuildFile; fileRef = A17D2BE32E99D4F92C49AF21A05886C7 /* AAArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E066137E71394ECA84F84211720BE33F /* AALineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8865374638C8F231E0F2EF496E9B9555 /* AALineStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E13E640C2C2485FB3334CD5034AA7E19 /* AACrosshair.m in Sources */ = {isa = PBXBuildFile; fileRef = 94381F8145A5327620F0AFDE554BA10E /* AACrosshair.m */; };
+		E252CC859E385EDD05AD0ABE73034B84 /* AALine.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B366050821E0C5F9C377FED307C0A1 /* AALine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E33B38BC10C23092971FF1E2786EC559 /* AAMarginConvenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFA21C40018FE0117129CCFADAA9FD6 /* AAMarginConvenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E77AC32D96DFDA9762FA978D100D42E5 /* NSArray+toJSArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C2381558F7DE12747CA689829176FE /* NSArray+toJSArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E79B17EAFE015FE0C2D1A9ECB48F59E9 /* AAColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E2259322B61AF8AD1F43D5F7DB624 /* AAColor.m */; };
+		E9C6FD51ACFECE83DB60BE2FFF07A4BF /* AALineStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 332FE16B6139E3F1E4476D4B2B0E49FD /* AALineStyle.m */; };
+		ED8290E932F891528EE792B50A4C8FC2 /* AABar.m in Sources */ = {isa = PBXBuildFile; fileRef = 103F442A2D220187E4FE0E9C13F742D6 /* AABar.m */; };
+		EECDDA94045963F9B6D10DC682D21E4E /* AALine.m in Sources */ = {isa = PBXBuildFile; fileRef = 191EFD693E91560E61F0EA3549447EE7 /* AALine.m */; };
+		F0FE4D8B5DCF39D72A82C59C0EFDAE76 /* AAChartKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DEC5A41091F29A64EC9A04331A0E3C /* AAChartKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18DE28797C07D16B8DD215630FA0EE3 /* AAChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 322D28A1133B0A269D9DE9C3066A72DF /* AAChart.m */; };
+		FD35857F356C1517CA7A80A50E96E206 /* AAChartModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 346FBA2A8327CE61130977F428384D36 /* AAChartModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17DAB598A957CB53D08794322D6F47E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81E9CBFBBDCE85EBEC4B8D8C22D17F7;
+			remoteInfo = "Pods-AAChartKitTest";
+		};
+		354D283E21C66820F8F2B93E60E1E783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55EA7395F837D8CB375579499940DFC;
+			remoteInfo = "AAChartKit-AAChartKitLib";
+		};
+		817AE4203C8BD72A3C665EFE1734F209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B79B2FBD286F588F344035DBD5EE51;
+			remoteInfo = AAChartKit;
+		};
+		C6D00BCB73BC1CFFB206045156103053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B79B2FBD286F588F344035DBD5EE51;
+			remoteInfo = AAChartKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008770B9543C9928AF31731CE05506EB /* AAChartAxisType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAChartAxisType.h; path = AAChartKitLib/AAOptionsModel/AAChartAxisType.h; sourceTree = "<group>"; };
+		01304A848C2F427E8B57D113FE28E886 /* Pods-AAChartKitTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AAChartKitTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05B366050821E0C5F9C377FED307C0A1 /* AALine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALine.h; path = AAChartKitLib/AAOptionsModel/AALine.h; sourceTree = "<group>"; };
+		06C644B6E9697F14658C0A62AD81E09D /* AAOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAOptions.m; path = AAChartKitLib/AAChartCreator/AAOptions.m; sourceTree = "<group>"; };
+		0962ADA431A18C370F49CDFD85F67803 /* AAGlobalMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAGlobalMacro.h; path = AAChartKitLib/AAChartCreator/AAGlobalMacro.h; sourceTree = "<group>"; };
+		0BF43877AC571C0801B5FE92B0C5F339 /* AAChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAChartView.m; path = AAChartKitLib/AAChartCreator/AAChartView.m; sourceTree = "<group>"; };
+		0D8325E182768D817BE9F9E4EAB82D21 /* AAPlotOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPlotOptions.h; path = AAChartKitLib/AAOptionsModel/AAPlotOptions.h; sourceTree = "<group>"; };
+		0ECED3B00F6B1117DDF320B2A3FC967F /* AAPie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPie.m; path = AAChartKitLib/AAOptionsModel/AAPie.m; sourceTree = "<group>"; };
+		0FB55B191F9804674D06D605E59212F6 /* ResourceBundle-AAChartKitLib-AAChartKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AAChartKitLib-AAChartKit-Info.plist"; sourceTree = "<group>"; };
+		103F442A2D220187E4FE0E9C13F742D6 /* AABar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AABar.m; path = AAChartKitLib/AAOptionsModel/AABar.m; sourceTree = "<group>"; };
+		1591AA2F0EEE62731A69DF52550A6F3D /* Pods-AAChartKitTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAChartKitTestTests-Info.plist"; sourceTree = "<group>"; };
+		166D080950C039CDC5BBAD136EB07903 /* AAChartKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AAChartKit-dummy.m"; sourceTree = "<group>"; };
+		18F9FA5A69918BA232C523E1EE8E08AF /* AAPlotOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPlotOptions.m; path = AAChartKitLib/AAOptionsModel/AAPlotOptions.m; sourceTree = "<group>"; };
+		191EFD693E91560E61F0EA3549447EE7 /* AALine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALine.m; path = AAChartKitLib/AAOptionsModel/AALine.m; sourceTree = "<group>"; };
+		1DFA21C40018FE0117129CCFADAA9FD6 /* AAMarginConvenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAMarginConvenience.h; path = AAChartKitLib/AATool/Convenience/AAMarginConvenience.h; sourceTree = "<group>"; };
+		217DC57EA2D9B83807A39B4250A3C17B /* Pods-AAChartKitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAChartKitTest.release.xcconfig"; sourceTree = "<group>"; };
+		229B6254451F6B3CBF2D4AB9C40A1940 /* AACredits.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AACredits.m; path = AAChartKitLib/AAOptionsModel/AACredits.m; sourceTree = "<group>"; };
+		233405D8EBCB2573E9D34CDF225062CE /* AAChartKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AAChartKit.modulemap; sourceTree = "<group>"; };
+		25B2834BA5CD789829C24EEC4ED2659E /* AAPie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPie.h; path = AAChartKitLib/AAOptionsModel/AAPie.h; sourceTree = "<group>"; };
+		2893DF838B87CAE026FBF44950B45A6B /* AAColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAColor.h; path = AAChartKitLib/AATool/Color/AAColor.h; sourceTree = "<group>"; };
+		2BF25D9BD1965415D86E18DD513B80DB /* AABar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AABar.h; path = AAChartKitLib/AAOptionsModel/AABar.h; sourceTree = "<group>"; };
+		2E96E80CFA1EB052D2AD48E62AA93C5A /* Pods-AAChartKitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAChartKitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		322D28A1133B0A269D9DE9C3066A72DF /* AAChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAChart.m; path = AAChartKitLib/AAOptionsModel/AAChart.m; sourceTree = "<group>"; };
+		332FE16B6139E3F1E4476D4B2B0E49FD /* AALineStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALineStyle.m; path = AAChartKitLib/AAOptionsModel/AALineStyle.m; sourceTree = "<group>"; };
+		346FBA2A8327CE61130977F428384D36 /* AAChartModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAChartModel.h; path = AAChartKitLib/AAChartCreator/AAChartModel.h; sourceTree = "<group>"; };
+		3730F5B3367E9EB70258DE8C3B8FD767 /* Pods-AAChartKitTest-AAChartKitTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AAChartKitTest-AAChartKitTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		3912D888FD371A7935B7C8AC9E4120F7 /* AALabels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALabels.h; path = AAChartKitLib/AAOptionsModel/AALabels.h; sourceTree = "<group>"; };
+		3B45625B688C280F51C0E1005DD5D024 /* AAShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAShadow.h; path = AAChartKitLib/AAOptionsModel/AAShadow.h; sourceTree = "<group>"; };
+		3D16FEB8B65DE649DCD3D8195698BB19 /* Pods-AAChartKitTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AAChartKitTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F18A798A60EDE89BFF690D039232454 /* AALegend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALegend.h; path = AAChartKitLib/AAOptionsModel/AALegend.h; sourceTree = "<group>"; };
+		4083E618DF00E6CF9CEE403C6B7D34A1 /* AAStates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAStates.h; path = AAChartKitLib/AAOptionsModel/AAStates.h; sourceTree = "<group>"; };
+		413DCC5756B9FD04E1320FCF311773D8 /* AAPlotLinesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPlotLinesElement.m; path = AAChartKitLib/AAOptionsModel/AAPlotLinesElement.m; sourceTree = "<group>"; };
+		418D9E98035B21857271858324B6E3B5 /* AACrosshair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AACrosshair.h; path = AAChartKitLib/AAOptionsModel/AACrosshair.h; sourceTree = "<group>"; };
+		44E7EFAC29EB419FAF0DEC2AF374A486 /* AAColumnrange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAColumnrange.h; path = AAChartKitLib/AAOptionsModel/AAColumnrange.h; sourceTree = "<group>"; };
+		458F39BD51FA6962602DC5EEECE187E3 /* AASeriesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AASeriesElement.h; path = AAChartKitLib/AAChartCreator/AASeriesElement.h; sourceTree = "<group>"; };
+		46E0A2848EBE8BAC8D420B27F4C4FBDA /* AAJSFiles.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AAJSFiles.bundle; path = AAChartKitLib/AAJSFiles.bundle; sourceTree = "<group>"; };
+		4834B3D95CA9E9BB12DC272A5A533509 /* Pods-AAChartKitTest-AAChartKitTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AAChartKitTest-AAChartKitTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B663A670794DAC5521C6EB9E7CD216D /* Pods-AAChartKitTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AAChartKitTest.modulemap"; sourceTree = "<group>"; };
+		4CB09EF946C2B5BA37FDDBD36FB924BD /* Pods-AAChartKitTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAChartKitTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E70502797B1890A9D6CB65C2A820B65 /* AAOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAOptions.h; path = AAChartKitLib/AAChartCreator/AAOptions.h; sourceTree = "<group>"; };
+		4F15026615235FA1484E567826AE0722 /* NSString+toPureJSString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+toPureJSString.m"; path = "AAChartKitLib/AATool/Category/NSString+toPureJSString.m"; sourceTree = "<group>"; };
+		54654E1AEDA099DC8F5573F5FB295C96 /* Pods-AAChartKitTest-AAChartKitTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAChartKitTest-AAChartKitTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55C9E1F51B8CFDE698BC742E680D844A /* AAStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAStyle.h; path = AAChartKitLib/AAOptionsModel/AAStyle.h; sourceTree = "<group>"; };
+		588E2259322B61AF8AD1F43D5F7DB624 /* AAColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAColor.m; path = AAChartKitLib/AATool/Color/AAColor.m; sourceTree = "<group>"; };
+		5D823390604C52DFAA3AC10C8BFB8335 /* AAChartKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AAChartKit.framework; path = AAChartKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB186BFC9494BE2550404E5697F9393 /* AAXAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAXAxis.h; path = AAChartKitLib/AAOptionsModel/AAXAxis.h; sourceTree = "<group>"; };
+		61D670B50A0E8EB58743906A733E4768 /* AAChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAChart.h; path = AAChartKitLib/AAOptionsModel/AAChart.h; sourceTree = "<group>"; };
+		61FC6B9E0A69CC46C95438784CC3A2A2 /* AASeriesElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AASeriesElement.m; path = AAChartKitLib/AAChartCreator/AASeriesElement.m; sourceTree = "<group>"; };
+		6416FFEAF10796888343BC45BC0C80E4 /* Pods-AAChartKitTest-AAChartKitTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AAChartKitTest-AAChartKitTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6546BEFDF25A656538BFCCCFFA199EAC /* AAMarker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAMarker.m; path = AAChartKitLib/AAOptionsModel/AAMarker.m; sourceTree = "<group>"; };
+		6C751BD6E7BB3889C54DBE39757E1542 /* AASpline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AASpline.m; path = AAChartKitLib/AAOptionsModel/AASpline.m; sourceTree = "<group>"; };
+		6DEFD5167E6D81AF50485D04CB192C66 /* AAChartKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAChartKit-umbrella.h"; sourceTree = "<group>"; };
+		70324205EB2AB3F8B2E80AD605A4C6A8 /* Pods-AAChartKitTest-AAChartKitTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AAChartKitTest-AAChartKitTestUITests-dummy.m"; sourceTree = "<group>"; };
+		709AAA83696E46A7D7423D4567AB20AB /* AAPlotBandsElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPlotBandsElement.h; path = AAChartKitLib/AAOptionsModel/AAPlotBandsElement.h; sourceTree = "<group>"; };
+		71CCF6D8E9F582FAB8E090D1EE573F9E /* AALegend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALegend.m; path = AAChartKitLib/AAOptionsModel/AALegend.m; sourceTree = "<group>"; };
+		7337AAA3C4814683C3112755A1DF5139 /* Pods-AAChartKitTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AAChartKitTest-umbrella.h"; sourceTree = "<group>"; };
+		7461BF48348DF350AB163F972022A9DC /* AATooltip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AATooltip.h; path = AAChartKitLib/AAOptionsModel/AATooltip.h; sourceTree = "<group>"; };
+		749A8B244F7A08D090440F71E7E85464 /* AAChartKitLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AAChartKitLib.bundle; path = "AAChartKit-AAChartKitLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AD674ACEAE868124C13CD23B5DF0A1 /* AAStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAStyle.m; path = AAChartKitLib/AAOptionsModel/AAStyle.m; sourceTree = "<group>"; };
+		75D2916890741C47D4772AA18D704DE9 /* AAArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAArea.m; path = AAChartKitLib/AAOptionsModel/AAArea.m; sourceTree = "<group>"; };
+		78C133596122DFD8917150A6E8BC1625 /* AAShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAShadow.m; path = AAChartKitLib/AAOptionsModel/AAShadow.m; sourceTree = "<group>"; };
+		7BE6D0B48B82606FAF41A31F0B534161 /* AALang.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALang.h; path = AAChartKitLib/AAOptionsModel/AALang.h; sourceTree = "<group>"; };
+		7EB0B8279EC1B57107A431FD91DA4E8C /* AAGradientColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAGradientColor.h; path = AAChartKitLib/AATool/Color/AAGradientColor.h; sourceTree = "<group>"; };
+		8115B93E74742DC9BB65F5281017A5C4 /* Pods-AAChartKitTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAChartKitTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82DDFB0C3CE918E13B08E5B7BCBCE864 /* AADataLabels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AADataLabels.m; path = AAChartKitLib/AAOptionsModel/AADataLabels.m; sourceTree = "<group>"; };
+		83C3D25CAB125010891F11A80EC8498B /* AAColumnrange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAColumnrange.m; path = AAChartKitLib/AAOptionsModel/AAColumnrange.m; sourceTree = "<group>"; };
+		84D57648A3D5C6039E8FB9CDA5763090 /* Pods-AAChartKitTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AAChartKitTestTests-umbrella.h"; sourceTree = "<group>"; };
+		85A11850F939B42A1C111C9B3EFB78EB /* Pods-AAChartKitTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAChartKitTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		8865374638C8F231E0F2EF496E9B9555 /* AALineStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALineStyle.h; path = AAChartKitLib/AAOptionsModel/AALineStyle.h; sourceTree = "<group>"; };
+		8B5EC8DF983EFB7D980362F1488EDA92 /* AASeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AASeries.h; path = AAChartKitLib/AAOptionsModel/AASeries.h; sourceTree = "<group>"; };
+		8FBDE6B4C0460C1925C9F8F640203A3D /* Pods-AAChartKitTest-AAChartKitTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAChartKitTest-AAChartKitTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		924FEFC6008427B280A1BC851297CF1D /* Pods_AAChartKitTest_AAChartKitTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AAChartKitTest_AAChartKitTestUITests.framework; path = "Pods-AAChartKitTest-AAChartKitTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DEC5A41091F29A64EC9A04331A0E3C /* AAChartKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAChartKit.h; path = AAChartKitLib/AAChartCreator/AAChartKit.h; sourceTree = "<group>"; };
+		93994561199D3D26D25FF0813F4AE896 /* AAChartKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAChartKit-prefix.pch"; sourceTree = "<group>"; };
+		94381F8145A5327620F0AFDE554BA10E /* AACrosshair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AACrosshair.m; path = AAChartKitLib/AAOptionsModel/AACrosshair.m; sourceTree = "<group>"; };
+		95AF319A7C9E875EDDA08CBFD6BE645C /* AAStyleConvenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAStyleConvenience.h; path = AAChartKitLib/AATool/Convenience/AAStyleConvenience.h; sourceTree = "<group>"; };
+		9666D9E0D7E9D2DF99866028D99469BD /* Pods-AAChartKitTest-AAChartKitTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAChartKitTest-AAChartKitTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		978DA0FADC804281EBC9A2B627B1624B /* Pods_AAChartKitTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AAChartKitTestTests.framework; path = "Pods-AAChartKitTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC7058841528594172CAED10CB2840A /* AAYAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAYAxis.h; path = AAChartKitLib/AAOptionsModel/AAYAxis.h; sourceTree = "<group>"; };
+		9F6572520FB90D8AF6195AC9D4CF5AF8 /* Pods-AAChartKitTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AAChartKitTestTests.modulemap"; sourceTree = "<group>"; };
+		A17D2BE32E99D4F92C49AF21A05886C7 /* AAArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAArea.h; path = AAChartKitLib/AAOptionsModel/AAArea.h; sourceTree = "<group>"; };
+		A52C85A7D8F54956476269FAF69948E3 /* AACredits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AACredits.h; path = AAChartKitLib/AAOptionsModel/AACredits.h; sourceTree = "<group>"; };
+		A5929F89A1EE7A1B5C141C65972FF2C0 /* AASeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AASeries.m; path = AAChartKitLib/AAOptionsModel/AASeries.m; sourceTree = "<group>"; };
+		AA50B0DBF412B279EF8D7615FAB5AFCE /* AAStates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAStates.m; path = AAChartKitLib/AAOptionsModel/AAStates.m; sourceTree = "<group>"; };
+		AC97095ACA76BE602276FD665F5C1493 /* AASpline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AASpline.h; path = AAChartKitLib/AAOptionsModel/AASpline.h; sourceTree = "<group>"; };
+		AE752A249F02C1BB17B370F8F7F1A9CD /* AAChartKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AAChartKit.release.xcconfig; sourceTree = "<group>"; };
+		AFC6221EFEDDDBAE814009BB05C4C20B /* Pods-AAChartKitTest-AAChartKitTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAChartKitTest-AAChartKitTestUITests-Info.plist"; sourceTree = "<group>"; };
+		B23E9F1F4FB290525696FEAAC8691F57 /* AALabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AALabel.h; path = AAChartKitLib/AAOptionsModel/AALabel.h; sourceTree = "<group>"; };
+		B39B0DEEB625A88C114036D2EC148960 /* AALang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALang.m; path = AAChartKitLib/AAOptionsModel/AALang.m; sourceTree = "<group>"; };
+		B5C89220FEA132A2040F125FAA62B6D5 /* AALabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALabel.m; path = AAChartKitLib/AAOptionsModel/AALabel.m; sourceTree = "<group>"; };
+		B6B5C19B362D27A89F89E163EC378B29 /* AAAreaspline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAAreaspline.m; path = AAChartKitLib/AAOptionsModel/AAAreaspline.m; sourceTree = "<group>"; };
+		BB421DA9AABC642713FEF180E36BE8EC /* AATitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AATitle.m; path = AAChartKitLib/AAOptionsModel/AATitle.m; sourceTree = "<group>"; };
+		BDB744B7465C0418FF157B89280D6708 /* AAAreaspline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAAreaspline.h; path = AAChartKitLib/AAOptionsModel/AAAreaspline.h; sourceTree = "<group>"; };
+		BE54D04C42272CD0803E1A8735D254BF /* AAChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAChartView.h; path = AAChartKitLib/AAChartCreator/AAChartView.h; sourceTree = "<group>"; };
+		BE878A18B7FE3FE888B9D8E5697C43D9 /* AAPane.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPane.m; path = AAChartKitLib/AAOptionsModel/AAPane.m; sourceTree = "<group>"; };
+		BFBF8F842E099B47F53251BBD29EBD30 /* Pods_AAChartKitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AAChartKitTest.framework; path = "Pods-AAChartKitTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38478673384E99DF8FBD8AE8678AAB1 /* AAXAxis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAXAxis.m; path = AAChartKitLib/AAOptionsModel/AAXAxis.m; sourceTree = "<group>"; };
+		C3F0A9DF0C28C4A192C96B7F84A9B6D2 /* Pods-AAChartKitTest-AAChartKitTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AAChartKitTest-AAChartKitTestUITests.modulemap"; sourceTree = "<group>"; };
+		C4573D5347856B99C72FB5DB5EBB03A2 /* AAChartKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AAChartKit.debug.xcconfig; sourceTree = "<group>"; };
+		C749453ED7B208AC7E26F2EEF4CD37CF /* AAChartKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AAChartKit-Info.plist"; sourceTree = "<group>"; };
+		CA1E174C7043F67398A2932E4216A0E6 /* AAPlotBandsElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAPlotBandsElement.m; path = AAChartKitLib/AAOptionsModel/AAPlotBandsElement.m; sourceTree = "<group>"; };
+		CC20DCD14AEF1DDC903ACF3B0C635E9B /* AAGradientColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAGradientColor.m; path = AAChartKitLib/AATool/Color/AAGradientColor.m; sourceTree = "<group>"; };
+		CE1CC2BA6C65391C7A1310A737B62488 /* Pods-AAChartKitTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AAChartKitTest-frameworks.sh"; sourceTree = "<group>"; };
+		CE74C6A4685D3A49C605F7040C602AFC /* AADateTimeLabelFormats.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AADateTimeLabelFormats.m; path = AAChartKitLib/AAOptionsModel/AADateTimeLabelFormats.m; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D26B755132693CFDFB54E1BD323BBEFD /* AALabels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AALabels.m; path = AAChartKitLib/AAOptionsModel/AALabels.m; sourceTree = "<group>"; };
+		D37868D0BC785F3479A4C2B5556D74D5 /* Pods-AAChartKitTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AAChartKitTestTests-dummy.m"; sourceTree = "<group>"; };
+		D5327E114635248BEB35C9404AE00B4F /* Pods-AAChartKitTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAChartKitTest-Info.plist"; sourceTree = "<group>"; };
+		D5C56F1A8BA242019A4C691CE80442CA /* AAPlotLinesElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPlotLinesElement.h; path = AAChartKitLib/AAOptionsModel/AAPlotLinesElement.h; sourceTree = "<group>"; };
+		D7AB515382D29BDCC7E854CD7C4C7CA4 /* Pods-AAChartKitTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AAChartKitTest-dummy.m"; sourceTree = "<group>"; };
+		D7C023406FB41295070E126EC33FF6EC /* AAAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAAnimation.m; path = AAChartKitLib/AAOptionsModel/AAAnimation.m; sourceTree = "<group>"; };
+		D7C2381558F7DE12747CA689829176FE /* NSArray+toJSArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+toJSArray.h"; path = "AAChartKitLib/AATool/Category/NSArray+toJSArray.h"; sourceTree = "<group>"; };
+		D9238FB3D0E139E431E512646C6426A2 /* AADataLabels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AADataLabels.h; path = AAChartKitLib/AAOptionsModel/AADataLabels.h; sourceTree = "<group>"; };
+		DBAD118EFE584FD6475FA379CCE2D385 /* AAAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAAnimation.h; path = AAChartKitLib/AAOptionsModel/AAAnimation.h; sourceTree = "<group>"; };
+		DD456443F99A313AC8E3A8341DDFF1D4 /* AAYAxis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAYAxis.m; path = AAChartKitLib/AAOptionsModel/AAYAxis.m; sourceTree = "<group>"; };
+		DE216D4460F06ECB2480532218FD4E90 /* NSString+toPureJSString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+toPureJSString.h"; path = "AAChartKitLib/AATool/Category/NSString+toPureJSString.h"; sourceTree = "<group>"; };
+		E1CDE326F8C267418DB48435A0CE3C30 /* AAColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAColumn.m; path = AAChartKitLib/AAOptionsModel/AAColumn.m; sourceTree = "<group>"; };
+		E3C87323810C11D6A652B07FBF40C745 /* AAColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAColumn.h; path = AAChartKitLib/AAOptionsModel/AAColumn.h; sourceTree = "<group>"; };
+		E7EF27F7030B0202902C1ED945165939 /* AAPane.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAPane.h; path = AAChartKitLib/AAOptionsModel/AAPane.h; sourceTree = "<group>"; };
+		EA9474DEBE0D70DEF18AE4D10DCFB9AF /* NSArray+toJSArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+toJSArray.m"; path = "AAChartKitLib/AATool/Category/NSArray+toJSArray.m"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE96F1264E7C6F354D46DC72339A0F5B /* AAChartModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AAChartModel.m; path = AAChartKitLib/AAChartCreator/AAChartModel.m; sourceTree = "<group>"; };
+		EF2FE87978B2963145178D29B63832BF /* AADateTimeLabelFormats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AADateTimeLabelFormats.h; path = AAChartKitLib/AAOptionsModel/AADateTimeLabelFormats.h; sourceTree = "<group>"; };
+		F0A89434DA43EDF5FA24CA85AECDB379 /* AATooltip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AATooltip.m; path = AAChartKitLib/AAOptionsModel/AATooltip.m; sourceTree = "<group>"; };
+		F37A972AD82CE29047350ADEEE0EE8FC /* Pods-AAChartKitTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAChartKitTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBC9781C116D2ED247B8B510BDBC78C6 /* AATitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AATitle.h; path = AAChartKitLib/AAOptionsModel/AATitle.h; sourceTree = "<group>"; };
+		FE636B17E5FA2FA63DA86E59E27AAEC5 /* AAMarker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAMarker.h; path = AAChartKitLib/AAOptionsModel/AAMarker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C90BE8BBD2BB99DBA55BD7FC9D7612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3059E12C37DAE0D4570E4AB2B3FEEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1885F2636298C651AFDED89983EF57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11B4742918272E2D29EA705BE339C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7608974473B89168BCC2F67E6B15B19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A9BAB674F92858A09CB6E50FB18320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5CA46523550BDFC2BCEBAB9C3BDC9 /* Foundation.framework in Frameworks */,
+				7326596B96BB3C93A4714477329EE688 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F180A21B5C00F3666D5F0CE0ECF1419C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86645269D5970D91559CB68C927CCAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E43AD0ADE6171BE25316F68EC3B0CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D823390604C52DFAA3AC10C8BFB8335 /* AAChartKit.framework */,
+				749A8B244F7A08D090440F71E7E85464 /* AAChartKitLib.bundle */,
+				BFBF8F842E099B47F53251BBD29EBD30 /* Pods_AAChartKitTest.framework */,
+				924FEFC6008427B280A1BC851297CF1D /* Pods_AAChartKitTest_AAChartKitTestUITests.framework */,
+				978DA0FADC804281EBC9A2B627B1624B /* Pods_AAChartKitTestTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C1CEE919748D91474F0F6D53780D7A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81055835438FC56783C98118575E0489 /* Pods-AAChartKitTest */,
+				645C45F2F252AAF304B9D259E85FF2F7 /* Pods-AAChartKitTest-AAChartKitTestUITests */,
+				608150B6B1CD1CCB843C423350EF8488 /* Pods-AAChartKitTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		608150B6B1CD1CCB843C423350EF8488 /* Pods-AAChartKitTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6572520FB90D8AF6195AC9D4CF5AF8 /* Pods-AAChartKitTestTests.modulemap */,
+				01304A848C2F427E8B57D113FE28E886 /* Pods-AAChartKitTestTests-acknowledgements.markdown */,
+				F37A972AD82CE29047350ADEEE0EE8FC /* Pods-AAChartKitTestTests-acknowledgements.plist */,
+				D37868D0BC785F3479A4C2B5556D74D5 /* Pods-AAChartKitTestTests-dummy.m */,
+				1591AA2F0EEE62731A69DF52550A6F3D /* Pods-AAChartKitTestTests-Info.plist */,
+				84D57648A3D5C6039E8FB9CDA5763090 /* Pods-AAChartKitTestTests-umbrella.h */,
+				8115B93E74742DC9BB65F5281017A5C4 /* Pods-AAChartKitTestTests.debug.xcconfig */,
+				4CB09EF946C2B5BA37FDDBD36FB924BD /* Pods-AAChartKitTestTests.release.xcconfig */,
+			);
+			name = "Pods-AAChartKitTestTests";
+			path = "Target Support Files/Pods-AAChartKitTestTests";
+			sourceTree = "<group>";
+		};
+		645C45F2F252AAF304B9D259E85FF2F7 /* Pods-AAChartKitTest-AAChartKitTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3F0A9DF0C28C4A192C96B7F84A9B6D2 /* Pods-AAChartKitTest-AAChartKitTestUITests.modulemap */,
+				4834B3D95CA9E9BB12DC272A5A533509 /* Pods-AAChartKitTest-AAChartKitTestUITests-acknowledgements.markdown */,
+				9666D9E0D7E9D2DF99866028D99469BD /* Pods-AAChartKitTest-AAChartKitTestUITests-acknowledgements.plist */,
+				70324205EB2AB3F8B2E80AD605A4C6A8 /* Pods-AAChartKitTest-AAChartKitTestUITests-dummy.m */,
+				6416FFEAF10796888343BC45BC0C80E4 /* Pods-AAChartKitTest-AAChartKitTestUITests-frameworks.sh */,
+				AFC6221EFEDDDBAE814009BB05C4C20B /* Pods-AAChartKitTest-AAChartKitTestUITests-Info.plist */,
+				3730F5B3367E9EB70258DE8C3B8FD767 /* Pods-AAChartKitTest-AAChartKitTestUITests-umbrella.h */,
+				54654E1AEDA099DC8F5573F5FB295C96 /* Pods-AAChartKitTest-AAChartKitTestUITests.debug.xcconfig */,
+				8FBDE6B4C0460C1925C9F8F640203A3D /* Pods-AAChartKitTest-AAChartKitTestUITests.release.xcconfig */,
+			);
+			name = "Pods-AAChartKitTest-AAChartKitTestUITests";
+			path = "Target Support Files/Pods-AAChartKitTest-AAChartKitTestUITests";
+			sourceTree = "<group>";
+		};
+		6A890C5013E6A15DA55A5B3199BD4115 /* AAChartKit */ = {
+			isa = PBXGroup;
+			children = (
+				DBAD118EFE584FD6475FA379CCE2D385 /* AAAnimation.h */,
+				D7C023406FB41295070E126EC33FF6EC /* AAAnimation.m */,
+				A17D2BE32E99D4F92C49AF21A05886C7 /* AAArea.h */,
+				75D2916890741C47D4772AA18D704DE9 /* AAArea.m */,
+				BDB744B7465C0418FF157B89280D6708 /* AAAreaspline.h */,
+				B6B5C19B362D27A89F89E163EC378B29 /* AAAreaspline.m */,
+				2BF25D9BD1965415D86E18DD513B80DB /* AABar.h */,
+				103F442A2D220187E4FE0E9C13F742D6 /* AABar.m */,
+				61D670B50A0E8EB58743906A733E4768 /* AAChart.h */,
+				322D28A1133B0A269D9DE9C3066A72DF /* AAChart.m */,
+				008770B9543C9928AF31731CE05506EB /* AAChartAxisType.h */,
+				92DEC5A41091F29A64EC9A04331A0E3C /* AAChartKit.h */,
+				346FBA2A8327CE61130977F428384D36 /* AAChartModel.h */,
+				EE96F1264E7C6F354D46DC72339A0F5B /* AAChartModel.m */,
+				BE54D04C42272CD0803E1A8735D254BF /* AAChartView.h */,
+				0BF43877AC571C0801B5FE92B0C5F339 /* AAChartView.m */,
+				2893DF838B87CAE026FBF44950B45A6B /* AAColor.h */,
+				588E2259322B61AF8AD1F43D5F7DB624 /* AAColor.m */,
+				E3C87323810C11D6A652B07FBF40C745 /* AAColumn.h */,
+				E1CDE326F8C267418DB48435A0CE3C30 /* AAColumn.m */,
+				44E7EFAC29EB419FAF0DEC2AF374A486 /* AAColumnrange.h */,
+				83C3D25CAB125010891F11A80EC8498B /* AAColumnrange.m */,
+				A52C85A7D8F54956476269FAF69948E3 /* AACredits.h */,
+				229B6254451F6B3CBF2D4AB9C40A1940 /* AACredits.m */,
+				418D9E98035B21857271858324B6E3B5 /* AACrosshair.h */,
+				94381F8145A5327620F0AFDE554BA10E /* AACrosshair.m */,
+				D9238FB3D0E139E431E512646C6426A2 /* AADataLabels.h */,
+				82DDFB0C3CE918E13B08E5B7BCBCE864 /* AADataLabels.m */,
+				EF2FE87978B2963145178D29B63832BF /* AADateTimeLabelFormats.h */,
+				CE74C6A4685D3A49C605F7040C602AFC /* AADateTimeLabelFormats.m */,
+				0962ADA431A18C370F49CDFD85F67803 /* AAGlobalMacro.h */,
+				7EB0B8279EC1B57107A431FD91DA4E8C /* AAGradientColor.h */,
+				CC20DCD14AEF1DDC903ACF3B0C635E9B /* AAGradientColor.m */,
+				B23E9F1F4FB290525696FEAAC8691F57 /* AALabel.h */,
+				B5C89220FEA132A2040F125FAA62B6D5 /* AALabel.m */,
+				3912D888FD371A7935B7C8AC9E4120F7 /* AALabels.h */,
+				D26B755132693CFDFB54E1BD323BBEFD /* AALabels.m */,
+				7BE6D0B48B82606FAF41A31F0B534161 /* AALang.h */,
+				B39B0DEEB625A88C114036D2EC148960 /* AALang.m */,
+				3F18A798A60EDE89BFF690D039232454 /* AALegend.h */,
+				71CCF6D8E9F582FAB8E090D1EE573F9E /* AALegend.m */,
+				05B366050821E0C5F9C377FED307C0A1 /* AALine.h */,
+				191EFD693E91560E61F0EA3549447EE7 /* AALine.m */,
+				8865374638C8F231E0F2EF496E9B9555 /* AALineStyle.h */,
+				332FE16B6139E3F1E4476D4B2B0E49FD /* AALineStyle.m */,
+				1DFA21C40018FE0117129CCFADAA9FD6 /* AAMarginConvenience.h */,
+				FE636B17E5FA2FA63DA86E59E27AAEC5 /* AAMarker.h */,
+				6546BEFDF25A656538BFCCCFFA199EAC /* AAMarker.m */,
+				4E70502797B1890A9D6CB65C2A820B65 /* AAOptions.h */,
+				06C644B6E9697F14658C0A62AD81E09D /* AAOptions.m */,
+				E7EF27F7030B0202902C1ED945165939 /* AAPane.h */,
+				BE878A18B7FE3FE888B9D8E5697C43D9 /* AAPane.m */,
+				25B2834BA5CD789829C24EEC4ED2659E /* AAPie.h */,
+				0ECED3B00F6B1117DDF320B2A3FC967F /* AAPie.m */,
+				709AAA83696E46A7D7423D4567AB20AB /* AAPlotBandsElement.h */,
+				CA1E174C7043F67398A2932E4216A0E6 /* AAPlotBandsElement.m */,
+				D5C56F1A8BA242019A4C691CE80442CA /* AAPlotLinesElement.h */,
+				413DCC5756B9FD04E1320FCF311773D8 /* AAPlotLinesElement.m */,
+				0D8325E182768D817BE9F9E4EAB82D21 /* AAPlotOptions.h */,
+				18F9FA5A69918BA232C523E1EE8E08AF /* AAPlotOptions.m */,
+				8B5EC8DF983EFB7D980362F1488EDA92 /* AASeries.h */,
+				A5929F89A1EE7A1B5C141C65972FF2C0 /* AASeries.m */,
+				458F39BD51FA6962602DC5EEECE187E3 /* AASeriesElement.h */,
+				61FC6B9E0A69CC46C95438784CC3A2A2 /* AASeriesElement.m */,
+				3B45625B688C280F51C0E1005DD5D024 /* AAShadow.h */,
+				78C133596122DFD8917150A6E8BC1625 /* AAShadow.m */,
+				AC97095ACA76BE602276FD665F5C1493 /* AASpline.h */,
+				6C751BD6E7BB3889C54DBE39757E1542 /* AASpline.m */,
+				4083E618DF00E6CF9CEE403C6B7D34A1 /* AAStates.h */,
+				AA50B0DBF412B279EF8D7615FAB5AFCE /* AAStates.m */,
+				55C9E1F51B8CFDE698BC742E680D844A /* AAStyle.h */,
+				74AD674ACEAE868124C13CD23B5DF0A1 /* AAStyle.m */,
+				95AF319A7C9E875EDDA08CBFD6BE645C /* AAStyleConvenience.h */,
+				FBC9781C116D2ED247B8B510BDBC78C6 /* AATitle.h */,
+				BB421DA9AABC642713FEF180E36BE8EC /* AATitle.m */,
+				7461BF48348DF350AB163F972022A9DC /* AATooltip.h */,
+				F0A89434DA43EDF5FA24CA85AECDB379 /* AATooltip.m */,
+				5DB186BFC9494BE2550404E5697F9393 /* AAXAxis.h */,
+				C38478673384E99DF8FBD8AE8678AAB1 /* AAXAxis.m */,
+				9DC7058841528594172CAED10CB2840A /* AAYAxis.h */,
+				DD456443F99A313AC8E3A8341DDFF1D4 /* AAYAxis.m */,
+				D7C2381558F7DE12747CA689829176FE /* NSArray+toJSArray.h */,
+				EA9474DEBE0D70DEF18AE4D10DCFB9AF /* NSArray+toJSArray.m */,
+				DE216D4460F06ECB2480532218FD4E90 /* NSString+toPureJSString.h */,
+				4F15026615235FA1484E567826AE0722 /* NSString+toPureJSString.m */,
+				C918D24EA59B502AF72D15664F7C13EA /* Resources */,
+				BBA6CF00694CFAFBBD2D23A86F778186 /* Support Files */,
+			);
+			name = AAChartKit;
+			path = AAChartKit;
+			sourceTree = "<group>";
+		};
+		81055835438FC56783C98118575E0489 /* Pods-AAChartKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				4B663A670794DAC5521C6EB9E7CD216D /* Pods-AAChartKitTest.modulemap */,
+				3D16FEB8B65DE649DCD3D8195698BB19 /* Pods-AAChartKitTest-acknowledgements.markdown */,
+				85A11850F939B42A1C111C9B3EFB78EB /* Pods-AAChartKitTest-acknowledgements.plist */,
+				D7AB515382D29BDCC7E854CD7C4C7CA4 /* Pods-AAChartKitTest-dummy.m */,
+				CE1CC2BA6C65391C7A1310A737B62488 /* Pods-AAChartKitTest-frameworks.sh */,
+				D5327E114635248BEB35C9404AE00B4F /* Pods-AAChartKitTest-Info.plist */,
+				7337AAA3C4814683C3112755A1DF5139 /* Pods-AAChartKitTest-umbrella.h */,
+				2E96E80CFA1EB052D2AD48E62AA93C5A /* Pods-AAChartKitTest.debug.xcconfig */,
+				217DC57EA2D9B83807A39B4250A3C17B /* Pods-AAChartKitTest.release.xcconfig */,
+			);
+			name = "Pods-AAChartKitTest";
+			path = "Target Support Files/Pods-AAChartKitTest";
+			sourceTree = "<group>";
+		};
+		BBA6CF00694CFAFBBD2D23A86F778186 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				233405D8EBCB2573E9D34CDF225062CE /* AAChartKit.modulemap */,
+				166D080950C039CDC5BBAD136EB07903 /* AAChartKit-dummy.m */,
+				C749453ED7B208AC7E26F2EEF4CD37CF /* AAChartKit-Info.plist */,
+				93994561199D3D26D25FF0813F4AE896 /* AAChartKit-prefix.pch */,
+				6DEFD5167E6D81AF50485D04CB192C66 /* AAChartKit-umbrella.h */,
+				C4573D5347856B99C72FB5DB5EBB03A2 /* AAChartKit.debug.xcconfig */,
+				AE752A249F02C1BB17B370F8F7F1A9CD /* AAChartKit.release.xcconfig */,
+				0FB55B191F9804674D06D605E59212F6 /* ResourceBundle-AAChartKitLib-AAChartKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AAChartKit";
+			sourceTree = "<group>";
+		};
+		C918D24EA59B502AF72D15664F7C13EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46E0A2848EBE8BAC8D420B27F4C4FBDA /* AAJSFiles.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				FC7BB801ADC1B048F2AB8EF0F71F68A6 /* Pods */,
+				0E43AD0ADE6171BE25316F68EC3B0CAA /* Products */,
+				3C1CEE919748D91474F0F6D53780D7A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7BB801ADC1B048F2AB8EF0F71F68A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A890C5013E6A15DA55A5B3199BD4115 /* AAChartKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C2CFEEC523D746E5D16F2A62F8A0AB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD640337867D5C9C726F2D78A0ED6BE /* Pods-AAChartKitTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4BE5E2077CB01F19723A9C0C82265C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C255A1BF2C414026A9C3DA1B6B9393 /* AAAnimation.h in Headers */,
+				E004D516547C4BEC2B91AD0FFC58F2DF /* AAArea.h in Headers */,
+				3E10A2832A5557827395A58C54047FFB /* AAAreaspline.h in Headers */,
+				3510C284335873BDAA5210BDB9D9016F /* AABar.h in Headers */,
+				5C53FB726F485648E0669AD4D66F8451 /* AAChart.h in Headers */,
+				A7DE533568067D7CA1D86FE962065D45 /* AAChartAxisType.h in Headers */,
+				2D9478010F6F4202214E3E2ACCD33681 /* AAChartKit-umbrella.h in Headers */,
+				F0FE4D8B5DCF39D72A82C59C0EFDAE76 /* AAChartKit.h in Headers */,
+				FD35857F356C1517CA7A80A50E96E206 /* AAChartModel.h in Headers */,
+				AB70218D42152A50240E1CF2D2F29683 /* AAChartView.h in Headers */,
+				80C34CFC7DF53BAA9550F671A0C83DFE /* AAColor.h in Headers */,
+				9C4EE634320EA73F8870EB2CA3EEB6CF /* AAColumn.h in Headers */,
+				29409ED1A37ECD9DAABFDD0F88FC0A98 /* AAColumnrange.h in Headers */,
+				DE5310F2007910F996FD2E024F80F0C6 /* AACredits.h in Headers */,
+				5D141814F275DCF95EBCDD2C6EFEDB58 /* AACrosshair.h in Headers */,
+				4A90106BD3E58DCAC0A6836A36E00A9C /* AADataLabels.h in Headers */,
+				2B600808D6B0FF78A0DDAD80D4B12D16 /* AADateTimeLabelFormats.h in Headers */,
+				19F2F87B4FBACE1A70CC3C64C1512310 /* AAGlobalMacro.h in Headers */,
+				8A8531447D63C9B78B7C5071AA82C3D1 /* AAGradientColor.h in Headers */,
+				CC187C19A99484D487EEFBA11722F314 /* AALabel.h in Headers */,
+				10528958C659EF01DAE7664E75B3063F /* AALabels.h in Headers */,
+				78390B47633DFD67F6EA49B4119D9F7A /* AALang.h in Headers */,
+				D0DCF630558EE13C30F7D90E58EAE276 /* AALegend.h in Headers */,
+				E252CC859E385EDD05AD0ABE73034B84 /* AALine.h in Headers */,
+				E066137E71394ECA84F84211720BE33F /* AALineStyle.h in Headers */,
+				E33B38BC10C23092971FF1E2786EC559 /* AAMarginConvenience.h in Headers */,
+				452D79628F806EC9F7CC575DD7F7114B /* AAMarker.h in Headers */,
+				7F4B9F98B28C9E9858E00ED870DE673D /* AAOptions.h in Headers */,
+				30A650E0D874AE6DEEFD0B6AEDA89411 /* AAPane.h in Headers */,
+				6F5F988403C27D41310FC0AA388E58B1 /* AAPie.h in Headers */,
+				1F96C1376128E223A7E7C20D692B716D /* AAPlotBandsElement.h in Headers */,
+				BC2F3C19D02D1EB5A1DE970BBA3852A3 /* AAPlotLinesElement.h in Headers */,
+				494C653B83A4C9BDB000E1C23A127B23 /* AAPlotOptions.h in Headers */,
+				66BB1B089905BE1F52AEACFB68D0B23D /* AASeries.h in Headers */,
+				625AA887BAC5E9FF5BA2044B5BD0436F /* AASeriesElement.h in Headers */,
+				0781E63C5FB1969AC0CD9681B8AADA1B /* AAShadow.h in Headers */,
+				4BE0FB8321965915E7D10AE2AB662329 /* AASpline.h in Headers */,
+				6587C7EF6438D6DC1A2889A3650E25D9 /* AAStates.h in Headers */,
+				CCA2849603AD481B25D20F364C9A23FF /* AAStyle.h in Headers */,
+				8F45CAEF15EAA58490D961BCA853E29D /* AAStyleConvenience.h in Headers */,
+				0D882829DDAC70E7901E9DC4C0C9E835 /* AATitle.h in Headers */,
+				DDFE9DDA5E5317133E6089B0DBD50014 /* AATooltip.h in Headers */,
+				5587B0157E2FBD14EC96C95276623555 /* AAXAxis.h in Headers */,
+				29FF4F8A22923B52E1621BFC48C1C5B0 /* AAYAxis.h in Headers */,
+				E77AC32D96DFDA9762FA978D100D42E5 /* NSArray+toJSArray.h in Headers */,
+				B6A0BE6591886403F4CF8E99B22E8EC8 /* NSString+toPureJSString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211A48668B11338FC833E8E6A035BB54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B9CE790C35AC6208BDF5A7C31EC537 /* Pods-AAChartKitTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BDC2F1C029E9C167CAB25F4DA68131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310398FB54090BE6ED6C5D721458766C /* Pods-AAChartKitTest-AAChartKitTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47B79B2FBD286F588F344035DBD5EE51 /* AAChartKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E9E79380142F2E7460A5168EC04086 /* Build configuration list for PBXNativeTarget "AAChartKit" */;
+			buildPhases = (
+				1D4BE5E2077CB01F19723A9C0C82265C /* Headers */,
+				F1EE04AC5D99B105678931E243C25041 /* Sources */,
+				E8A9BAB674F92858A09CB6E50FB18320 /* Frameworks */,
+				AE1ABAB26E816024C6760E498103BDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57E80E95EFEAF588CA503C0DB4C4FD1D /* PBXTargetDependency */,
+			);
+			name = AAChartKit;
+			productName = AAChartKit;
+			productReference = 5D823390604C52DFAA3AC10C8BFB8335 /* AAChartKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C4943D32EFE1FCFB40356EDBECD83ED /* Pods-AAChartKitTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51E6698E3AB9C38AC844CD0D37ABEDE /* Build configuration list for PBXNativeTarget "Pods-AAChartKitTestTests" */;
+			buildPhases = (
+				211A48668B11338FC833E8E6A035BB54 /* Headers */,
+				7B405C8700CCF977132AC60F1C2F16C5 /* Sources */,
+				F180A21B5C00F3666D5F0CE0ECF1419C /* Frameworks */,
+				8A5E6AE2D51C23E02A624FDAF8C8BFA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE23FB826687E10F3BD32407533F7C4C /* PBXTargetDependency */,
+			);
+			name = "Pods-AAChartKitTestTests";
+			productName = "Pods-AAChartKitTestTests";
+			productReference = 978DA0FADC804281EBC9A2B627B1624B /* Pods_AAChartKitTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C40B27D90874AC16C28F2779447440A0 /* Pods-AAChartKitTest-AAChartKitTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF02BDF0699CA32D2B1FB8BCEA530A0D /* Build configuration list for PBXNativeTarget "Pods-AAChartKitTest-AAChartKitTestUITests" */;
+			buildPhases = (
+				76BDC2F1C029E9C167CAB25F4DA68131 /* Headers */,
+				1EC5261FE4F89640C2F5F305A7E1546D /* Sources */,
+				B3059E12C37DAE0D4570E4AB2B3FEEE1 /* Frameworks */,
+				6D034CF580AF046AF173B994A5EF42E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F464E93EEA0A6420F4294CD97C63CF7D /* PBXTargetDependency */,
+			);
+			name = "Pods-AAChartKitTest-AAChartKitTestUITests";
+			productName = "Pods-AAChartKitTest-AAChartKitTestUITests";
+			productReference = 924FEFC6008427B280A1BC851297CF1D /* Pods_AAChartKitTest_AAChartKitTestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D55EA7395F837D8CB375579499940DFC /* AAChartKit-AAChartKitLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4978D94B9BDB68F8AD5C71F798425322 /* Build configuration list for PBXNativeTarget "AAChartKit-AAChartKitLib" */;
+			buildPhases = (
+				D2A4ABE66DDAE9D6126AD246361D6B68 /* Sources */,
+				84C90BE8BBD2BB99DBA55BD7FC9D7612 /* Frameworks */,
+				1D4196C5C3FF158549AB5314A54DF7E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AAChartKit-AAChartKitLib";
+			productName = "AAChartKit-AAChartKitLib";
+			productReference = 749A8B244F7A08D090440F71E7E85464 /* AAChartKitLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E81E9CBFBBDCE85EBEC4B8D8C22D17F7 /* Pods-AAChartKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625BEC27955A096011AF771AA2DCB75E /* Build configuration list for PBXNativeTarget "Pods-AAChartKitTest" */;
+			buildPhases = (
+				0C2CFEEC523D746E5D16F2A62F8A0AB4 /* Headers */,
+				8F1B2FA063CEDEC390BF2186E8D0988D /* Sources */,
+				E11B4742918272E2D29EA705BE339C1B /* Frameworks */,
+				48A92DFA1781BAEFD5F123B8F5C8540D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AF25660906E9D05DB7BFE91659691BC /* PBXTargetDependency */,
+			);
+			name = "Pods-AAChartKitTest";
+			productName = "Pods-AAChartKitTest";
+			productReference = BFBF8F842E099B47F53251BBD29EBD30 /* Pods_AAChartKitTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0E43AD0ADE6171BE25316F68EC3B0CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47B79B2FBD286F588F344035DBD5EE51 /* AAChartKit */,
+				D55EA7395F837D8CB375579499940DFC /* AAChartKit-AAChartKitLib */,
+				E81E9CBFBBDCE85EBEC4B8D8C22D17F7 /* Pods-AAChartKitTest */,
+				C40B27D90874AC16C28F2779447440A0 /* Pods-AAChartKitTest-AAChartKitTestUITests */,
+				7C4943D32EFE1FCFB40356EDBECD83ED /* Pods-AAChartKitTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D4196C5C3FF158549AB5314A54DF7E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C81E684614506FB8DC674816BE08DE /* AAJSFiles.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A92DFA1781BAEFD5F123B8F5C8540D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D034CF580AF046AF173B994A5EF42E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5E6AE2D51C23E02A624FDAF8C8BFA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1ABAB26E816024C6760E498103BDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9469DB887AC7227EDF264A904D2E6B1B /* AAChartKitLib.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EC5261FE4F89640C2F5F305A7E1546D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8259E9F7E1E0EBE9B962EBC6921FA8F /* Pods-AAChartKitTest-AAChartKitTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B405C8700CCF977132AC60F1C2F16C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00662B3A6E5680BE33F35207694BBD13 /* Pods-AAChartKitTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1B2FA063CEDEC390BF2186E8D0988D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B116154B409EB0FB34C0E72B6983A4B3 /* Pods-AAChartKitTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A4ABE66DDAE9D6126AD246361D6B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EE04AC5D99B105678931E243C25041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E94766F95E379D5FE7BDEDA24D6151 /* AAAnimation.m in Sources */,
+				CD9EF7B9B32CC71637BCEE42C9A598DC /* AAArea.m in Sources */,
+				11C049D771F1024955B961849E227654 /* AAAreaspline.m in Sources */,
+				ED8290E932F891528EE792B50A4C8FC2 /* AABar.m in Sources */,
+				F18DE28797C07D16B8DD215630FA0EE3 /* AAChart.m in Sources */,
+				2433EDD4F80DFDD1228F512D25F3F3CD /* AAChartKit-dummy.m in Sources */,
+				9C3890E2CD2788337A852BB6F96D0E95 /* AAChartModel.m in Sources */,
+				AD0FB334A1D67EE9E016643AB4DA01B6 /* AAChartView.m in Sources */,
+				E79B17EAFE015FE0C2D1A9ECB48F59E9 /* AAColor.m in Sources */,
+				8F7C416826D9179FA64B07723BBE021A /* AAColumn.m in Sources */,
+				4F9E4180C6C8AB712CDDD9220FECAED0 /* AAColumnrange.m in Sources */,
+				7F804C45520869E5D5F8196CF597969B /* AACredits.m in Sources */,
+				E13E640C2C2485FB3334CD5034AA7E19 /* AACrosshair.m in Sources */,
+				3F885CAC1C9900B8673BFB2DD4C384EC /* AADataLabels.m in Sources */,
+				8D3798C9E03F5A60FE76CBF3A1C18B43 /* AADateTimeLabelFormats.m in Sources */,
+				29D5122488E7E7495370EC6587745978 /* AAGradientColor.m in Sources */,
+				13F23C3F8C1711AACF9B0980BB8C40E3 /* AALabel.m in Sources */,
+				46588491BDA07890246A5B223F6134F1 /* AALabels.m in Sources */,
+				873927873E9A48CEBB1C4F33575A6EB5 /* AALang.m in Sources */,
+				D85AC857700BE0A1839214B35C070B78 /* AALegend.m in Sources */,
+				EECDDA94045963F9B6D10DC682D21E4E /* AALine.m in Sources */,
+				E9C6FD51ACFECE83DB60BE2FFF07A4BF /* AALineStyle.m in Sources */,
+				5CCFDB0E79BFB30F6F1954586715333C /* AAMarker.m in Sources */,
+				A7E9D5BCB5A31E1EFA1651F7006F8322 /* AAOptions.m in Sources */,
+				3B3125C2498C1782922D26DC3D8E84F8 /* AAPane.m in Sources */,
+				B04C0973EFC5CEA5A0FE9C65DDC682B7 /* AAPie.m in Sources */,
+				A8070BA6A2944514397AC4965AA49430 /* AAPlotBandsElement.m in Sources */,
+				75B9404A7348BBE712DDAADC0AA5F540 /* AAPlotLinesElement.m in Sources */,
+				740A4E9FAC1A035B7CC741E7FB097B18 /* AAPlotOptions.m in Sources */,
+				6E82F1C1113F2C7D07254E13C9A49731 /* AASeries.m in Sources */,
+				28B3F7E3462824AA582F986FA57B9DE6 /* AASeriesElement.m in Sources */,
+				8AB75FF81DD3969B6FD93E8565C6B435 /* AAShadow.m in Sources */,
+				25CC991F981DB5D40F3A67122D562F20 /* AASpline.m in Sources */,
+				8AD0D39A9BBD4FCEE840971E53ADC811 /* AAStates.m in Sources */,
+				485EFC7C5D4AB16914517E3EC7DD62A7 /* AAStyle.m in Sources */,
+				7B67F2F48663BC6E03666693D7FC510A /* AATitle.m in Sources */,
+				B4633429FA685F53075F0693581467A0 /* AATooltip.m in Sources */,
+				6256ED4E6148A9BA40F0A268B47FC195 /* AAXAxis.m in Sources */,
+				5C32C6F24ACE236994173F49F33688AD /* AAYAxis.m in Sources */,
+				9796C3559B65A4A1DD6BB67A032095FE /* NSArray+toJSArray.m in Sources */,
+				6126580730EA4E9A914873C7CE2C9182 /* NSString+toPureJSString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57E80E95EFEAF588CA503C0DB4C4FD1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AAChartKit-AAChartKitLib";
+			target = D55EA7395F837D8CB375579499940DFC /* AAChartKit-AAChartKitLib */;
+			targetProxy = 354D283E21C66820F8F2B93E60E1E783 /* PBXContainerItemProxy */;
+		};
+		5AF25660906E9D05DB7BFE91659691BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AAChartKit;
+			target = 47B79B2FBD286F588F344035DBD5EE51 /* AAChartKit */;
+			targetProxy = C6D00BCB73BC1CFFB206045156103053 /* PBXContainerItemProxy */;
+		};
+		CE23FB826687E10F3BD32407533F7C4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AAChartKitTest";
+			target = E81E9CBFBBDCE85EBEC4B8D8C22D17F7 /* Pods-AAChartKitTest */;
+			targetProxy = 17DAB598A957CB53D08794322D6F47E4 /* PBXContainerItemProxy */;
+		};
+		F464E93EEA0A6420F4294CD97C63CF7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AAChartKit;
+			target = 47B79B2FBD286F588F344035DBD5EE51 /* AAChartKit */;
+			targetProxy = 817AE4203C8BD72A3C665EFE1734F209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33FD51675DD08DB007B7F4B1421F03DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E96E80CFA1EB052D2AD48E62AA93C5A /* Pods-AAChartKitTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AAChartKitTest/Pods-AAChartKitTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AAChartKitTest/Pods-AAChartKitTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		523248F82E4A9B97F22F86CAA2AABDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4573D5347856B99C72FB5DB5EBB03A2 /* AAChartKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AAChartKit/AAChartKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AAChartKit/AAChartKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AAChartKit/AAChartKit.modulemap";
+				PRODUCT_MODULE_NAME = AAChartKit;
+				PRODUCT_NAME = AAChartKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CE38DA2D407ED9C788908E7B9FE3BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBDE6B4C0460C1925C9F8F640203A3D /* Pods-AAChartKitTest-AAChartKitTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AAChartKitTest-AAChartKitTestUITests/Pods-AAChartKitTest-AAChartKitTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AAChartKitTest-AAChartKitTestUITests/Pods-AAChartKitTest-AAChartKitTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFBCB9229F3EEF4E5CF55390056CBAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8115B93E74742DC9BB65F5281017A5C4 /* Pods-AAChartKitTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AAChartKitTestTests/Pods-AAChartKitTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AAChartKitTestTests/Pods-AAChartKitTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD1938B198F9CC5A07422DFEB93321FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB09EF946C2B5BA37FDDBD36FB924BD /* Pods-AAChartKitTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AAChartKitTestTests/Pods-AAChartKitTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AAChartKitTestTests/Pods-AAChartKitTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D938FF6E8B4EFA4C840350B379D27C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4573D5347856B99C72FB5DB5EBB03A2 /* AAChartKit.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AAChartKit";
+				IBSC_MODULE = AAChartKit;
+				INFOPLIST_FILE = "Target Support Files/AAChartKit/ResourceBundle-AAChartKitLib-AAChartKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AAChartKitLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DF3001F29C4C22F1E08D33516BE215EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE752A249F02C1BB17B370F8F7F1A9CD /* AAChartKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AAChartKit/AAChartKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AAChartKit/AAChartKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AAChartKit/AAChartKit.modulemap";
+				PRODUCT_MODULE_NAME = AAChartKit;
+				PRODUCT_NAME = AAChartKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB87D62A2BAB27DCC051AD3C6135E507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE752A249F02C1BB17B370F8F7F1A9CD /* AAChartKit.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AAChartKit";
+				IBSC_MODULE = AAChartKit;
+				INFOPLIST_FILE = "Target Support Files/AAChartKit/ResourceBundle-AAChartKitLib-AAChartKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = AAChartKitLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FC9A7351CE1B576FAB47C2928BDEC3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217DC57EA2D9B83807A39B4250A3C17B /* Pods-AAChartKitTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AAChartKitTest/Pods-AAChartKitTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AAChartKitTest/Pods-AAChartKitTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF8177A309E6D0C51049EAD2F29F66DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54654E1AEDA099DC8F5573F5FB295C96 /* Pods-AAChartKitTest-AAChartKitTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AAChartKitTest-AAChartKitTestUITests/Pods-AAChartKitTest-AAChartKitTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AAChartKitTest-AAChartKitTestUITests/Pods-AAChartKitTest-AAChartKitTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4978D94B9BDB68F8AD5C71F798425322 /* Build configuration list for PBXNativeTarget "AAChartKit-AAChartKitLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D938FF6E8B4EFA4C840350B379D27C9E /* Debug */,
+				FB87D62A2BAB27DCC051AD3C6135E507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625BEC27955A096011AF771AA2DCB75E /* Build configuration list for PBXNativeTarget "Pods-AAChartKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FD51675DD08DB007B7F4B1421F03DD /* Debug */,
+				FC9A7351CE1B576FAB47C2928BDEC3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E9E79380142F2E7460A5168EC04086 /* Build configuration list for PBXNativeTarget "AAChartKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523248F82E4A9B97F22F86CAA2AABDDF /* Debug */,
+				DF3001F29C4C22F1E08D33516BE215EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51E6698E3AB9C38AC844CD0D37ABEDE /* Build configuration list for PBXNativeTarget "Pods-AAChartKitTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBCB9229F3EEF4E5CF55390056CBAE1 /* Debug */,
+				CD1938B198F9CC5A07422DFEB93321FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF02BDF0699CA32D2B1FB8BCEA530A0D /* Build configuration list for PBXNativeTarget "Pods-AAChartKitTest-AAChartKitTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8177A309E6D0C51049EAD2F29F66DD /* Debug */,
+				8CE38DA2D407ED9C788908E7B9FE3BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

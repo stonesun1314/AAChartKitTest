@@ -1,0 +1,21 @@
+PODS:
+  - AAChartKit (6.0.0)
+
+DEPENDENCIES:
+  - AAChartKit (from `https://github.com/AAChartModel/AAChartKit.git`)
+
+EXTERNAL SOURCES:
+  AAChartKit:
+    :git: https://github.com/AAChartModel/AAChartKit.git
+
+CHECKOUT OPTIONS:
+  AAChartKit:
+    :commit: 3fcff46b79e878fd2c567ffce36ca5b28098ac7f
+    :git: https://github.com/AAChartModel/AAChartKit.git
+
+SPEC CHECKSUMS:
+  AAChartKit: dffacac3b641f2d2dc2fbf5f227350d22faee784
+
+PODFILE CHECKSUM: e16362329eda2ae170d429246482729090c884cd
+
+COCOAPODS: 1.10.0
